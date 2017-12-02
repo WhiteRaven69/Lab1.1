@@ -6,7 +6,11 @@ namespace Lab1._1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Person p1 = new Person("Valentin", "Migley", new DateTime(1997, 06, 29));
+            Console.WriteLine(p1.ToString());
+            Console.WriteLine(p1.ToShortStrig());
+
+            Console.ReadLine();
         }
     }
 }
